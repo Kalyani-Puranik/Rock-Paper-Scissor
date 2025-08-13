@@ -1,9 +1,9 @@
 def rps():
     import random
     l1=["rock", "paper", "scissors"]
-    c=input("Do you want to play?y/n")
+    c=input("Do you want to play?y/n: ")
     if c=='y':
-        c1=input("Enter your choice type rock, paper or scissors")
+        c1=input("Enter your choice type rock, paper or scissors: ")
         c2=random.choice(l1)
         if c1!=c2:
             if c1=="paper" and c2=="rock":
